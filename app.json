@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/OrderFood/OrderFoodRoot",
+    "pages/QueueManagement/QueueManagementRoot"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "#eb4f38",
+    "backgroundColor": "black",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "Resource/default.png",
+      "selectedIconPath": "Resource/default.png"
+    }, {
+      "pagePath": "pages/OrderFood/OrderFoodRoot",
+      "text": "点菜",
+      "iconPath": "Resource/default.png",
+      "selectedIconPath": "Resource/default.png"
+    }, {
+      "pagePath": "pages/QueueManagementRoot",
+      "text": "预约叫号",
+      "iconPath": "Resource/default.png",
+      "selectedIconPath": "Resource/default.png"
+    }]
+  }
+}
