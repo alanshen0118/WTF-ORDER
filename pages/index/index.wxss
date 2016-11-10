@@ -19,3 +19,12 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.containerView {
+  height: 100%;
+  background-color: orange;
+}
+
+.subView {
+  height: 200px;
+}
